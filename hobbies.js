@@ -1,11 +1,7 @@
 function hobbies(hobbyOne,hobbyTwo,hobbyThree){
-    let hobby = [
-        {
-        hobbyOne: hobbyOne,
-        hobbyTwo: hobbyTwo,
-        hobbyThree: hobbyThree,
+    const hobby = {
+        hobbies : [hobbyOne,hobbyTwo,hobbyThree]
     }
-]
     return hobby
 }
 module.exports = hobbies
