@@ -1,6 +1,9 @@
 function names(firstName,lastName){
-    this.firstName = firstName;
-    this.lastName = lastName;
+    let person = {
+    firstName : firstName,
+    lastName : lastName,
+    }
+    return person
 }
 
 module.exports = names
