@@ -6,5 +6,4 @@ function names(firstName,lastName){
     return person
 }
 
-let namesFunc = names('Manuel','Trappolini');
-module.exports = namesFunc
+module.exports = names

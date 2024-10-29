@@ -3,13 +3,14 @@ const hobbiesFunc = require('./hobbies.js');
 
 /* console.log(namesFunc);
 console.log(hobbiesFunc); */
-const {firstName,lastName} = namesFunc
-const {hobbies} = hobbiesFunc
+    
+    const {hobby} = hobbiesFunc
+    const {firstName,lastName} = namesFunc
 function livingPerson(){
     let livingPerson = {
-        firstName,
-        lastName,
-        hobbies,
+        firstName: firstName,
+        lastName: lastName,
+        hobbies:[hobby]
     }
     return livingPerson
 }

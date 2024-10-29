@@ -4,5 +4,5 @@ function hobbies(hobbyOne,hobbyTwo,hobbyThree){
     }
     return hobby
 }
-let hobbiesFunc = hobbies('Sport','VideoGames','Cinema');
-module.exports = hobbiesFunc
+
+module.exports = hobbies
